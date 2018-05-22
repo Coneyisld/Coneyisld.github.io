@@ -6,15 +6,18 @@
      background-color: rgba(0,0,0,.5);
      
 }
- .slides-navigation .prev, .slides-navigation .next {
+
+.slides-navigatiion a {
+     z-index: 6;
+}
+ .slides-navigation .prev, 
+ .slides-navigation .next {
      width: 47px;
      height: 47px;
      background-size: cover;
      background-repeat: no-repeat;
-}
-
-.slides-navigatiion a {
      background-image: url(../img/icons/whiteArrow.png);
+
 }
 
  .slides-navigation a.prev {
@@ -326,4 +329,13 @@ h2 {
      height: 100%;
      width: 100%;
      margin: 0 auto;
+}
+
+.arrowLeft {
+  transform: rotate(90deg);
+  height: 47px;
+  width: 47px
+}
+.arrowRight {
+  transform: rotate(270deg);
 }
