@@ -70,7 +70,7 @@ h2 {
      max-width: 100%;
 }
  .skillsSection, .contactSection {
-     background-color: #3c6382;
+     background-color: #107690;
      color:#fff;
 }
  .chart {
@@ -110,7 +110,7 @@ h2 {
 }
  .contactButton:hover {
      text-decoration: none;
-     color: #3c6382;
+     color: #107690;
      background-color: #fff;
 }
  .copyRightSection {
@@ -138,7 +138,7 @@ h2 {
 }
 /*NAV*/
  .navbar {
-     background-color: #3c6382;
+     background-color: #107690;
      padding: 20px 10px;
      z-index: 100;
      width: 100%;
