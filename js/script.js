@@ -10,7 +10,7 @@ $(document).ready( function() {
   $('#slides').superslides({animation: "fade", play:5000, pagination: false});
   //typedJS
   var typed = new Typed(".typed", {
-  	strings: ["Software Engineer", "Student", "Web Developer/Wizard", "Innovator", "Pasionate Programmer"],
+  	strings: ["Software Engineer", "Student", "Web Developer/Wizard", "Innovator", "Passionate Programmer"],
   	loop: true,
   	typeSpeed: 70,
   	startDelay: 1000,
